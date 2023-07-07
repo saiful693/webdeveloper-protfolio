@@ -1,6 +1,6 @@
 /* common shared styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .text-primary {
@@ -94,7 +94,10 @@ nav a {
 }
 
 /* main section style */
-
+main{
+      max-width: 1140px;
+      margin: 0 auto;
+}
 
 
 /* about section style */
@@ -109,4 +112,14 @@ nav a {
     color: var(#757575);
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.what i do desc{
+    padding: 30px 150px;
 }
